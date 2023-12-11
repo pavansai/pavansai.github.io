@@ -1,0 +1,32 @@
+/* Experience.css */
+
+.ExperienceContainer {
+    margin-top: 500px;
+  }
+  .ExperienceBox {
+    width: 60%;
+    margin-top: 20px;
+  }
+  
+/* Experience.css */
+
+.Box {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #fcf0ee ;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); /* Added 5px offset on the y-axis */
+  }
+  
+  
+  .Box1 {
+    height: 150px;
+    width: 400px;
+  }
+  
+  .Box2 {
+    margin-top: 30px;
+    height: 150px;
+    width: 400px;
+  }
+  
