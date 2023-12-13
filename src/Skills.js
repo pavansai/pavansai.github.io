@@ -7,7 +7,7 @@ const Skills = () => {
       <div >
         <h2 className='skills-container' style = {{marginBottom:'-20px',color: '#000000', paddingTop:'120px',fontFamily:'sans-serif'}} > Skills </h2>
         <div className="languages-container">
-          <h3 style={{ fontWeight: 'lighter', marginBottom:'5px' }}> Programming Languages </h3>
+          <h3 style={{ fontWeight: 'lighter', marginBottom:'2px' }}> Programming Languages </h3>
           <div className="skills-list" style = {{marginBottom:'-10px'}}>
             <div >
             <p className="skill-item">C++</p>
@@ -21,7 +21,7 @@ const Skills = () => {
         </div>
         {/* Frameworks/Libraries */}
         <div className="frameworks-container">
-          <h3  style={{ fontWeight: 'lighter', marginBottom:'5px' }} >Frameworks/Libraries</h3>
+          <h3  style={{ fontWeight: 'lighter', marginBottom:'2px' }} >Frameworks/Libraries</h3>
           <div className="skills-list" style = {{marginBottom:'-10px'}}>
             <div>
             <p className="skill-item">React.js</p>
@@ -34,7 +34,7 @@ const Skills = () => {
         </div>
         {/* Tools */}
         <div className="tools-container">
-          <h3 style={{ fontWeight: 'lighter', marginBottom:'7px' }} >CS fundamentals</h3>
+          <h3 style={{ fontWeight: 'lighter', marginBottom:'2px' }} >CS fundamentals</h3>
           <div className="skills-list" style = {{marginBottom:'-10px'}}>
             <div className='skill-around'>
             <p className="skill-item">Object-Oriented Programming (OOP)</p>
@@ -42,8 +42,8 @@ const Skills = () => {
             <p className="skill-item">Algorithms</p>
             </div>
           </div>
-          <h3 style={{ fontWeight: 'lighter', marginBottom:'7px' }} >Tools/Platforms</h3>
-          <div className="skills-list" style = {{marginBottom:'-30px'}}>
+          <h3 style={{ fontWeight: 'lighter', marginBottom:'2px' }} >Tools/Platforms</h3>
+          <div className="skills-list" style = {{marginBottom:'-10px'}}>
             <div className='skill-around'>
             <p className="skill-item">Git</p>
             <p className="skill-item">Visual studio</p>
@@ -53,7 +53,7 @@ const Skills = () => {
             </div>
           </div>
           <h3 style={{ fontWeight: 'lighter', marginBottom:'7px' }} >Networking</h3>
-          <div className="skills-list" style = {{marginBottom:'-30px'}}>
+          <div className="skills-list" style = {{marginBottom:'-10px'}}>
             <div className='skill-around'>
             <p className="skill-item">TCP/IP</p>
             </div>
