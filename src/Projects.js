@@ -45,9 +45,9 @@ const Projects = () => {
               </div>
               {isDescriptionVisible1 && (
                 <>
-                  <div className='overlay visible' onClick={toggleDescription1}></div>
+                  <div className='overlay visible' ></div>
                   <div className='project-dialogue-1 visible'>
-                    <div className='project-text'>
+                    <div className='project-text' onClick={toggleDescription1}>
                       <p>This is dynamic beach resort website developed with React.js,
                          featuring efficient state management with React Context API.
                          Deployed on Netlify with GitHub integration

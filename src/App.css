@@ -8,6 +8,7 @@ body {
   width: 550px;
 }
 .about{
+  height: 1200px;
   position:absolute;
   margin-top: 70px;
   font-size: 25px;
@@ -21,12 +22,13 @@ body {
 }
 .bold-orange {
   font-weight: bold;
-  color: #000000; 
+  color: #2c64c6; 
   font-size: 40px;
 }
 .app-container {
   display: flex;
   flex-direction: column;
+  height: '5000px';
 }
 .content-container {
   display: flex;
@@ -54,12 +56,8 @@ body {
   display: flex;
   margin-top: 5px;
 }
-.project-container{
-  margin-top: 400px;
-  font-size: 40px;
-}
 .skills-container {
-  margin-top: 400px;
+  margin-top: 200px;
 }
 .about-container {
   margin-top: 500px;
@@ -71,16 +69,18 @@ body {
 }
 .skill-item {
   border: 1px solid #555;
-  border-radius:9px;
-  border-color: black; 
-  padding: 5px;
+  border-radius: 10px;
+  border-color: rgb(255, 0, 0); 
+  padding: 6px;
   margin: 2px; 
   font-size: 17px;
+  font-weight: bolder;
+  color: white;
   margin-left: 0px;
   margin-right: 5px;
   display: inline-block;
   justify-content:space-around;
-  background-color:#bfdbfe;
+  background-color:#295363;
 }
 .skill-around{
   justify-content: space-around;

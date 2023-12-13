@@ -4,13 +4,14 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Experience from './Experience';
 import { Element } from 'react-scroll';
+import Sidebar from './Sidebar';
 import Contact from './Contact';
 function About() {
   return (
     <Element name="Home">
-    <div>
+    <div > 
       <Navbar />
-      <p className="about">
+      <div className="about">
         Hello, I am{' '}
         <span className="bold-orange">pavan sai</span> <p style={{ fontSize: '23px'}}>
          I am a Computer Science graduate student at Campbellsville University,
@@ -20,13 +21,12 @@ function About() {
           I also have a computer science bachelor's degree from SRM University, India.
           My major is Artificial Intelligence and Machine Learning.
         </p>
-        <div>
           <Skills />
           <Projects />
           <Experience />
           <Contact/>
-        </div>
-      </p>
+          <Sidebar/>
+      </div>
     </div>
     </Element>
   );

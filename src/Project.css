@@ -8,6 +8,10 @@
     z-index: 1; 
     display: none; 
   }
+  .project-container{
+    margin-top: 400px;
+    font-size: 40px;
+  }
   .overlay.visible {
     display: block;
   }
@@ -18,7 +22,7 @@
     border-radius: 10px;
     top: 50%;
     left: 45%;
-    transform: translate(-10%, -50%);
+    transform: translate(-25%, -50%);
     background-color: white;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

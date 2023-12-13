@@ -8,10 +8,10 @@ const Skills = () => {
         <h2 className='skills-container' style = {{marginBottom:'-20px',color: '#000000', paddingTop:'120px',fontFamily:'sans-serif'}} > Skills </h2>
         <div className="languages-container">
           <h3 style={{ fontWeight: 'lighter', marginBottom:'5px' }}> Programming Languages </h3>
-          <div className="skills-list" style = {{marginBottom:'0px'}}>
+          <div className="skills-list" style = {{marginBottom:'-10px'}}>
             <div >
+            <p className="skill-item">C++</p>
             <p className="skill-item">Java</p>
-            <p className="skill-item">C/C++</p>
             <p className="skill-item">JavaScript</p>
             <p className="skill-item">TypeScript</p>
             <p className="skill-item">Next.js</p>
@@ -21,8 +21,8 @@ const Skills = () => {
         </div>
         {/* Frameworks/Libraries */}
         <div className="frameworks-container">
-          <h3  style={{ fontWeight: 'lighter', marginBottom:'7px' }} >Frameworks/Libraries</h3>
-          <div className="skills-list" style = {{marginBottom:'0px'}}>
+          <h3  style={{ fontWeight: 'lighter', marginBottom:'5px' }} >Frameworks/Libraries</h3>
+          <div className="skills-list" style = {{marginBottom:'-10px'}}>
             <div>
             <p className="skill-item">React.js</p>
             <p className="skill-item">React native</p>
@@ -34,6 +34,14 @@ const Skills = () => {
         </div>
         {/* Tools */}
         <div className="tools-container">
+          <h3 style={{ fontWeight: 'lighter', marginBottom:'7px' }} >CS fundamentals</h3>
+          <div className="skills-list" style = {{marginBottom:'-10px'}}>
+            <div className='skill-around'>
+            <p className="skill-item">Object-Oriented Programming (OOP)</p>
+            <p className="skill-item">Data Structures</p>
+            <p className="skill-item">Algorithms</p>
+            </div>
+          </div>
           <h3 style={{ fontWeight: 'lighter', marginBottom:'7px' }} >Tools/Platforms</h3>
           <div className="skills-list" style = {{marginBottom:'-30px'}}>
             <div className='skill-around'>
@@ -44,6 +52,12 @@ const Skills = () => {
             <p className="skill-item">Intellij</p>
             </div>
           </div>
+          <h3 style={{ fontWeight: 'lighter', marginBottom:'7px' }} >Networking</h3>
+          <div className="skills-list" style = {{marginBottom:'-30px'}}>
+            <div className='skill-around'>
+            <p className="skill-item">TCP/IP</p>
+            </div>
+            </div>
         </div>
       </div>
     </Element>
