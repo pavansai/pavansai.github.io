@@ -6,6 +6,7 @@ import Experience from './Experience';
 import { Element } from 'react-scroll';
 import Sidebar from './Sidebar';
 import Contact from './Contact';
+import Footer from './Footer';
 function About() {
   return (
     <Element name="Home">
@@ -26,6 +27,7 @@ function About() {
           <Experience />
           <Contact/>
           <Sidebar/>
+          <Footer/>
       </div>
     </div>
     </Element>
